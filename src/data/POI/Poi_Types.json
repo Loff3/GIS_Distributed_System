@@ -1,0 +1,16 @@
+{
+    "types": [
+        {
+            "type": "Camping"
+        },
+        {
+            "type": "Badplats"
+        },
+        {
+            "type": "Rastplats"
+        },
+        {
+            "type": "POI"
+        }
+    ]
+}

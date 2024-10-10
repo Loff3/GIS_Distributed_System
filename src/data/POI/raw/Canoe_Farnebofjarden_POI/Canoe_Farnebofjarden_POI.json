@@ -1,0 +1,260 @@
+{
+    "canoe_farnebofjarden": {
+        "brattnaset": [
+            {
+                "name": "Brattnäset",
+                "lat": 60.13159,
+                "lon": 16.50868,
+                "desc": "",
+                "imgPath": ""
+            }
+        ],
+        "batsportklubben": [
+            {
+                "name": "Båtsportklubben",
+                "lat": 60.10663,
+                "lon": 16.48095,
+                "desc": "",
+                "imgPath": ""
+            }
+        ],
+        "barbyhallan": [
+            {
+                "name": "Bårbyhällan",
+                "lat": 60.14311,
+                "lon": 16.48877,
+                "desc": "",
+                "imgPath": ""
+            }
+        ],
+        "strangnas": [
+            {
+                "name": "Strångnäs",
+                "lat": 60.13012,
+                "lon": 16.47824,
+                "desc": "",
+                "imgPath": ""
+            }
+        ],
+        "skekarsbo": [
+            {
+                "name":"Skekarsbo",
+                "lat": 60.12755,
+                "lon": 16.51035,
+                "desc": "",
+                "imgPath": ""
+            }
+        ],
+        "sandon": [
+            {
+                "name":"Sandön",
+                "lat": 60.12585,
+                "lon": 16.47325,
+                "desc": "",
+                "imgPath": ""
+            }
+        ],
+        "osta_vast": [
+            {
+                "name":"Östa väst",
+                "lat": 60.10565,
+                "lon": 16.47127,
+                "desc": "",
+                "imgPath": ""
+            }
+        ],
+        "osta_norr": [
+            {
+                "name":"Östa norr",
+                "lat": 60.10672,
+                "lon": 16.47674,
+                "desc": "",
+                "imgPath": ""
+            }
+        ],
+        "osta_camping": [
+            {
+                "name":"Östa Camping",
+                "lat": 60.10404,
+                "lon": 16.47415,
+                "desc": "",
+                "imgPath": ""
+            }
+        ],
+        "goknaset": [
+            {
+                "name":"Göknäset",
+                "lat": 60.1187,
+                "lon": 16.44909,
+                "desc": "",
+                "imgPath": ""
+            }
+        ],
+        "dragsheden_vast": [
+            {
+                "name":"Dragsheden väst",
+                "lat": 60.14346,
+                "lon": 16.47136,
+                "desc": "",
+                "imgPath": ""
+            }
+        ],
+        "dragsheden_ost": [
+            {
+                "name":"Dragsheden öst",
+                "lat": 60.14203,
+                "lon": 16.47466,
+                "desc": "",
+                "imgPath": ""
+            }
+        ]
+    },
+    "canoe_hedesundafjarden": {
+        "ashuvudet": [
+            {
+                "name":"Åshuvudet",
+                "lat": 60.21955,
+                "lon": 17.1938,
+                "desc": "",
+                "imgPath": ""
+            }
+        ],
+        "sodra_sundet": [
+            {
+                "name":"Södra Sundet",
+                "lat": 60.1872,
+                "lon": 17.2239,
+                "desc": "",
+                "imgPath": ""
+            }
+        ],
+        "sandsnasbadet": [
+            {
+                "name":"Sandsnäsbadet",
+                "lat": 60.21013,
+                "lon": 17.1919,
+                "desc": "",
+                "imgPath": ""
+            }
+        ],
+        "ostveda": [
+            {
+                "name":"Östveda",
+                "lat": 60.22987,
+                "lon": 17.5701,
+                "desc": "",
+                "imgPath": ""
+            }
+        ],
+        "norra_sundet": [
+            {
+                "name":"Norra Sundet",
+                "lat": 60.22302,
+                "lon": 0.0,
+                "desc": "",
+                "imgPath": ""
+            }
+        ],
+        "kvillanudden": [
+            {
+                "name":"Kvillanudden",
+                "lat": 60.22312,
+                "lon": 17.2812,
+                "desc": "",
+                "imgPath": ""
+            }
+        ],
+        "korsnaset": [
+            {
+                "name":"Korsnäset",
+                "lat": 60.19183,
+                "lon": 17.1946,
+                "desc": "",
+                "imgPath": ""
+            }
+        ],
+        "hade": [
+            {
+                "name":"Hade",
+                "lat": 60.17909,
+                "lon": 17.222,
+                "desc": "",
+                "imgPath": ""
+            }
+        ],
+        "gnupe": [
+            {
+                "name":"Gnupe",
+                "lat": 60.20745,
+                "lon": 17.3406,
+                "desc": "",
+                "imgPath": ""
+            }
+        ],
+        "festplatsen": [
+            {
+                "name":"Festplatsen",
+                "lat": 60.19891,
+                "lon": 17.1291,
+                "desc": "",
+                "imgPath": ""
+            }
+        ]
+    },
+    "canoe_gysinge": {
+        "cafe_udden": [
+            {
+                "name":"Cafe Udden",
+                "lat": 60.17273,
+                "lon": 16.5287,
+                "desc": "",
+                "imgPath": ""
+            }
+        ],
+        "karlhomen": [
+            {
+                "name":"Karlhomen",
+                "lat": 60.15747,
+                "lon": 16.48537,
+                "desc": "",
+                "imgPath": ""
+            }
+        ],
+        "ista": [
+            {
+                "name":"Ista",
+                "lat": 60.15225,
+                "lon": 16.47666,
+                "desc": "",
+                "imgPath": ""
+            }
+        ],
+        "gysinge": [
+            {
+                "name":"Gysinge",
+                "lat": 60.17277,
+                "lon": 16.53181,
+                "desc": "",
+                "imgPath": ""
+            }
+        ],
+        "gardsvekarna": [
+            {
+                "name":"Gärdsvekarna",
+                "lat": 60.15752,
+                "lon": 16.5023,
+                "desc": "",
+                "imgPath": ""
+            }
+        ],
+        "edsviken": [
+            {
+                "name":"Edsviken",
+                "lat": 60.16877,
+                "lon": 16.48372,
+                "desc": "",
+                "imgPath": ""
+            }
+        ]
+    }
+}

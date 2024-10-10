@@ -1,0 +1,111 @@
+
+
+
+poiDescText = {
+    
+    "Bårbyhällan": 
+    "Bårbyhällan är en rastplats med vindskydd och eldstad. Det finns även möjlighet att sätta upp tält på platsen. Timrat vindskydd med eldstad. Stenig vattenkant vid angöring",
+
+    "Båtsportklubben": 
+    "Båtsportklubben är vackert belägen vid Dalälven. Två gästplatser finns tillgängliga och du är välkommen att lägga till om det är ledigt. ",
+
+    "Brattnäset": 
+    "Brattnäset är en rastplats med vindskydd och eldstad. Med den täta tallskogen bakom dig har du en fin utsikt över Dalälven och Åsmansholmarnas skönsjungande skarvpopulation. Angöring sker mot klipphäll",
+
+    "Cafe Udden": 
+    "Café Udden vid Gysinge Herrgårds vackra bruksmiljö bjuder på en enastående utsikt över Dalälven. Den självklara stunden för att njuta av en bit mat eller fika.",
+
+    "Dragsheden öst": 
+    "Dragheden öst, intill Gästriklands största järnåldersgravfält som finns här på båda sidor om Dragsbron. Platsen har grusbotten och det är 75 meter till avlastningsplatsen. Vid lågt vattenstånd kan passagen under Dragsbron vara torrlagd.",
+
+    "Dragsheden väst": 
+    "Dragheden väst, intill Gästriklands största järnåldersgravfält som finns här på båda sidor om Dragsbron. Platsen har grusbotten och det är 50 meter till avlastningsplatsen. Vid lågt vattenstånd kan passagen under Dragsbron vara torrlagd.",
+
+    "Edsviken": 
+    "Vid Edsviken badplats njuter du av sol och bad vid en av områdets vackraste sandstränder. Vid badplatsen finns faciliteter och toalett. Både badbrygga och brygga där du som kommer i kanot kan lägga till finns.",
+
+    "Gärdsvekarna": 
+    "Från Gärdsvekarnas anläggningsplats tar du dig 100 meter in på land och kommer till Bengts stuga. Det är en Raststuga med 4 bäddar. Öppen året runt. Stugan saknar el och vatten, bäddarna saknarmadrass. Torrdass och ved finns.    Stugan är öppen för övernattning. Du ansvarar för städning och ska se till att dörrar och fönster är stängda när du lämnar stugan. Se till att ev. eldar brunnit ut och är släckta. Sopor tar du med dig. Stugan kan inte bokas på förhand och de gäster som anländer för att övernatta ska beredas plats. Bäddarna har inte madrasser, vi rekommenderar var och en att ta med sig eget liggunderlag och sovsäck. Det finns inte el eller vatten. Stugan har dass. Ved finns. (Källa: www.cyklapaddla.se/objekt/bengts-stuga-pa-gardsverkarna/)",
+
+    "Gnupe": 
+    "Gnupe är mindre rastplats vid Nästmursviken's udde. Det är 10 meter till både avlastningsplats och parkering. Den höga kanten mot vattnet gör det svårare att angöra.",
+
+    "Göknäset": 
+    "Göknäset är en rastplats med grillplats och bänkar. Vid angöringen förekommer större stenar och en del växtlighet som vass.",
+
+    "Gysinge": 
+    "Gysinge, Norrlands sydligaste utpost bjuder på vilda forsar och ett unikt naturarv. I Gysinge behöver du inte välja mellan naturupplevelse, kultur, och god mat. Här finns allt samlat sedan generationer tillbaka. Kombinera gärna en tur i nationalparken med besök i de små butikerna och på någon av Gysinges utställningar. Gysinge ligger längst Tidernas väg, 272, mellan Uppsala och Sandviken. Området är utnämnt till Biosfärområde av FN-organet Unesco tack vare de höga natur- och kulturvärdena som omringar oss." + "Här finns flera sevärdheter så som Gysinge Bruk, Gysinge värdshus, Brandbilsmuseet, och Färnebofjärdens naturområde med goda möjligheter till vandring, fiske eller paddling. (Källa: visitsandviken.se)",
+
+    "Gysingeforsarna": 
+    "Gysingeforsarna är Känt för Sveriges sydligaste strömmande vatten med harr. Även fisket efter abborre, gädda och gös är mycket bra. De vackra miljöerna i både Färnebofjärdens nationalpark samt i brukssamhället med många byggnader från förr ger möjligheter till varierande upplevelser. (Källa: gysingeforsarna.se)",
+
+    "Hade": 
+    "Hade är en by i Hedesunda socken, som ingår i ett område söder om Dalälven kallat Utomälven. Förbi Hade passerar den urgamla leden mellan Uppsala - Östervåla - Hedesunda eller Mälaren - Enköping / Västerås - Tärnsjö, (Nora socken), - Hedesunda. I Hade finns gravfält från romersk järnålder (0-400 e Kr). Gravområdet ligger med utsikt över Dalälven. (Källa: www.wikipedia.org)",
+
+    "Hedesunda Camping": 
+    "Hedesunda Camping ligger nära samhället Hedesunda i ett vackert parkliknande område. Det är en lugn camping underbart vackert belägen vid Dalälvens strand med egna bryggor och en sandstrand känd som Sandsnäsbadet. Här kan du bada och fiska, göra kanotutflykter eller bara koppla av. Med mer än fem hektar gräsmark och skog erbjuder vi cirka 80 rymliga platser för husbilar, tält och husvagnar (varav 60 st är inklusive el). Trots att campingplatsen är så väl utrustad ger den dig en vildmarkskänsla, som kommer att stanna kvar som ett oförglömligt minne. Duschar och toaletter inklusive handikapptoalett finns centralt tillgängliga nära receptionen. Det finns goda matlagningsmöjligheter inklusive el- och mikrovågsugnar, varmvatten, diskutrustning och moderna tvättmaskiner. Till barnen finns det en lekpark och inte långt från campingen en härlig badstrand med en badbrygga. Wifi finns tillgängligt över nästan hela området. (www.hedesundacamping.se)",
+
+    "Hemön": 
+    "Hemön är en rastplats belägen inom Hemön-Utön naturområde, öster om Eskilstuna-åsen, intas dels av skog i olika åldrar och med olika sammansättning, dels av älvängar, alkärr och igenlagda odlingsmarker. Ett mycket vackert hasselbestånd, uppblandat med stora enbuskar, finns intill några husgrunder på ett fastmarksparti. (Källa: www.lansstyrelsen.se)",
+
+    "Ista": 
+    "I landskapet kring Färnebofjärden i Dalälven ligger Ista naturreservat. Genom reservatet löper Enköpingsåsen som sträcker sig ut i älven. Längs stränderna kring Hamrefjärden och Istasjön finns värdefulla älvängar och översvämmande skogar. Ista naturreservat ligger vid Dalälven 4 kilometer söder om Österfärnebo och omfattar 770 hektar. De låglänta strandzonerna översvämmas regelbundet och översvämningarna skapar värdefulla naturvärden. Många hotade arter är beroende av återkommande översvämningar och i Ista naturreservat finns bland annat flera rödlistade lavar och mossor. Där växer vattenklöver och videört.(Källa: www.lansstyrelsen.se)",
+
+    "Karlholmen": 
+    "Karlholm kan vara en rastplats med grillplats och vindskydd men det är svårt att finna källor på internet.",
+
+    "Korsnäset": 
+    "Korsnäset är en mindre rastplats nära riksväg 56. Trots sin enkelhet är det tack vare närheten till vägen en lämplig iläggningsplats. Den korta remsan av sandstrand och den mjuka botten bjuder in till både strandhäng och bad.",
+
+    "Kvillanudden": 
+    "Kvillanuddens naturreservat består av en skogsbeklädd grusås som bildar en udde i Dalälven. Större delen av reservatet är gammal betesmark och är än idag relativt öppet. Kvillanudden är ett välbesökt friluftslivsområde. Från parkeringen utgår en stig som leder till udden i reservatet. Härifrån får du en vacker utsikt över Hedesundafjärden. Du kan också följa en gammal väg som leder till ett vindskydd och rastplats som ligger längs med fjärden. På åsen växer blandskog med bland annat björk, inklusive den sällsynta masurbjörken, samt tall, asp, rönn, gran och en. Skogen är frisk till torr och i markskiktet växer bland annat lingon, blåbär, rödklöver, blåklocka, liljekonvalj, häckvicker och ormbär. (Källa: www.lansstyrelsen.se)",
+
+    "Långviksvallen": 
+    "Långviksvallen är en mindre rastplats. Den gräsbeklädda öppna ytan är lämplig för att tälta. Det är mindre än 20 meter till både lastsplats och parkering.",
+
+    "Löten":
+    "Löten är en rastplats med en remsa sandstrand blandad med stora stenblock och med sandig botten. Det långgrunda vattnet lämpar sig väl för angöring med kanot.",
+
+    "Norra Sundet": 
+    "Norra Sundet är en rastplats och iläggningsplats. Här finns en brygga.",
+
+    "Sandön": 
+    "Sandön är en rastplats med grillplats och vindskydd. Här finns tillgång till ved.",
+
+    "Sandsnäsbadet": 
+    "Sandnäsbadet ligger fint beläget vid Dalälven, i anslutning till Hedesunda Camping samt restaurang Sandsnäs. Badet har en fin sandstrand och omklädningshytter. Det finns tillgång till badrullstol, gästbåtsbrygga och dass.",
+
+    "Södra Sundet": 
+    "Södra Sundet är en enkel rastplats belägen nära riksväg 56. Iläggningsplatsen är mycket lämplig då en väg går ända ned till vattnet. Det är 50 meter till parkeringen.",
+
+    "Skekarsbo": 
+    "Skekarsbo är en en rastplats med grillplats. Den är nära belägen det 20 meter höga utkikstornet, där finns även dass, parkering, vindskydd, picknic-bord. ",
+
+    "Strångnäs": 
+    "Strångnäs är en enkel rastplats och angöringsplats som är en remsa sandstrand. Botten är stenig.",
+
+    "Tegelbruket": 
+    "Tegelbruket är en campingplats i Edsviken. Här finns en stor sandstrand med goda möjligheter till bad och lek.",
+
+    "Vägtrumman": 
+    "Vägtrumman är en genväg för den vågade kanotisten. Paddla in och se ljuset på andra sidan trumman, paddla ut och du befinner dig på andra sidan.",
+
+    "Åshuvudet": 
+    "Åshuvudet är en rastplats med grillplats, badplats och toalett. Det är en stenig strandremsa och botten.",
+
+    "Ögården": 
+    "Ögården är en familjevänlig rastplats. Ögården är Hedesunda Missionsförsamlings sommarhem som ligger vackert beläget vid Dalälven. Här finns Ögårdens Café. ",
+
+    "Östa Camping": 
+    "Östa Camping är en camping med vid Dalälvens strand. Det ett stort campingområde med 120 platser, där du kan campa året runt. En naturskön familjecamping med erkänt hög trivselnivå. Här kan man koppla av och må bra intill naturen, omgiven utav Dalälvens klara vatten. Älven är långgrund/barnvänlig och har fint fiskevatten. Gös , gädda, abborre, mört och någon enstaka lax. Fiskekort köps via app eller mobilnummer. Grillar är utplacerade på strandområdet. Fina promenadstråk samt vandringsleder. Vi erbjuder en camping för dig med husvagn med eller utan el, husbil med eller utan el, tält samt 2 stugor. (Källa: www.ostcamping.nu)",
+
+    "Östa norr": 
+    "Östa Norr är en rastplats med vindskydd och grillplats beläget vid en lång sandstrand. Det är långt till avlastningsplatsen och parkeringen, 300 meter.",
+
+    "Östa väst": 
+    "Östa väst är en enkel rastplats och angöringsplats som är en remsa sandstrand. Botten är mycket stenig.",
+
+    "Östveda": 
+    "Östveda är en enkel rastplats och angöringsplats som består av en remsa sand mot en gräsyta. Det är nära till toaletter. En asfalterad väg går ända ned till vattnet vilket underlättar lastning och iläggning.",
+
+};

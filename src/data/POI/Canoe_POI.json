@@ -1,0 +1,360 @@
+{
+    "canoe_farnebofjarden": {
+        "brattnaset": [
+            {
+                "name": "Brattnäset",
+                "lat": 60.219167,
+                "lon": 16.847222,
+                "desc": "Brattnäset is a rest area with wind protection and a fireplace. With the dense pine forest behind you, you have a nice view of the Dalälven and the beautifully singing cormorant population of Åsmansholmarna. The approach is towards the cliff face",
+                "imgPath": "grill.jpg",
+                "type": "Rastplats"
+            }
+        ],
+        "batsportklubben": [
+            {
+                "name": "Båtsportklubben",
+                "lat": 60.177689,
+                "lon": 16.801658,
+                "desc": "The boating club is beautifully situated on the Dalälven. Two guest berths are available and you are welcome to dock if there is vacancy.",
+                "imgPath": "Eldstad-under-tak.jpg",
+                "type": "POI"
+            }
+        ],
+        "barbyhallan": [
+            {
+                "name": "Bårbyhällan",
+                "lat": 60.234167,
+                "lon": 16.816111,
+                "desc": "Bårbyhällan is a resting place with a wind shelter and a fireplace. There is also the possibility to set up a tent on the site. Timbered wind shelter with a fireplace. Rocky water's edge.",
+                "imgPath": "grill.jpg",
+                "type": "Rastplats"
+            }
+        ],
+        "strangnas": [
+            {
+                "name": "Strångnäs",
+                "lat": 60.217352,
+                "lon": 16.796656,
+                "desc": "Strångnäs is a simple resting place and anchorage which is a strip of sandy beach. The bottom is rocky.",
+                "imgPath": "Eldstad-under-tak.jpg",
+                "type": "Rastplats"
+            }
+        ],
+        "skekarsbo": [
+            {
+                "name":"Skekarsbo",
+                "lat": 60.212222,
+                "lon": 16.848889,
+                "desc": "Skekarsbo is a rest area with a barbecue area. It is located near the 20-meter high lookout tower, there is also an improvised toilet, parking, wind shelter, picnic table.",
+                "imgPath": "Eldstad-under-tak.jpg",
+                "type": "Rastplats"
+            }
+        ],
+        "sandon": [
+            {
+                "name":"Sandön",
+                "lat": 60.209722,
+                "lon": 16.788889,
+                "desc": "Sandön is a rest area with a barbecue area and wind protection. There is access to firewood here.",
+                "imgPath": "Eldstad-under-tak.jpg",
+                "type": "Rastplats"
+            }
+        ],
+        "vagtrumman": [
+            {
+                "name":"Vägtrumman",
+                "lat": 60.235386,
+                "lon": 16.790592,
+                "desc": "The road tunnel is a shortcut for the daring canoeist. Paddle in and see the light on the other side of the tunnel, paddle out and you're on the other side.",
+                "imgPath": "vagtrumman.jpg",
+                "type": "POI"
+            }
+        ],
+        "osta_vast": [
+            {
+                "name":"Östa väst",
+                "lat": 60.176389,
+                "lon": 16.784444,
+                "desc": "East West is a simple rest area and anchorage which is a strip of sandy beach. The bottom is very rocky.",
+                "imgPath": "norra_sundet.jpg",
+                "type": "Badplats"
+            }
+        ],
+        "osta_norr": [
+            {
+                "name":"Östa norr",
+                "lat": 60.177500,
+                "lon": 16.791111,
+                "desc": "Östa Norr is a rest area with wind protection and a barbecue area located by a long sandy beach. It is far from the unloading area and the parking lot, 300 meters.",
+                "imgPath": "norra_sundet.jpg",
+                "type": "Badplats"
+            }
+        ],
+        "osta_camping": [
+            {
+                "name":"Östa Camping",
+                "lat": 60.173333,
+                "lon": 16.789167,
+                "desc": "Östa Camping is a campsite on the shore of the Dalälven river. It is a large camping area with 120 sites, where you can camp all year round. A scenic family campsite with a recognized high level of comfort. Here you can relax and feel good next to nature, surrounded by the clear waters of the Dalälven river The river is shallow and has nice fishing water, pike, and some salmon. There are barbecues on the beach. We offer a camping site for you or without electricity, mobile home with or without electricity, tent and 2 cabins (Source: www.ostcamping.nu)",
+                "imgPath": "camping1.jpg",
+                "type": "Camping"
+            }
+        ],
+        "goknaset": [
+            {
+                "name":"Göknäset",
+                "lat": 60.197500,
+                "lon": 16.748333,
+                "desc": "Göknäset is a rest area with a barbecue area and benches. At the approach there are larger stones and some vegetation such as reeds.",
+                "imgPath": "grill.jpg",
+                "type": "Rastplats"
+            }
+        ],"hemon": [
+            {
+                "name":"Hemön",
+                "lat": 60.216667,
+                "lon": 16.796667,
+                "desc": "Hemön is a resting place located within the Hemön-Utön nature area, east of the Eskilstuna ridge, occupied partly by forest of different ages and with different composition, partly by river meadows, alder fens and closed cultivation fields. A very beautiful hazel stand, mixed with large juniper bushes, is found next to some plots of land on a plot of land (Source: www.lansstyrelsen.se)",
+                "imgPath": "island.jpg",
+                "type": "Rastplats"
+            }
+        ],
+        "dragsheden_vast": [
+            {
+                "name":"Dragsheden väst",
+                "lat": 60.238333,
+                "lon": 16.786389,
+                "desc": "Dragheden west, next to Gästrikland's largest Iron Age burial ground which is here on both sides of the Dragsbron. The site has a gravel bottom and it is 50 meters to the unloading site. At low water levels, the passage under the Dragsbron can be dry.",
+                "imgPath": "coast.jpg",
+                "type": "Rastplats"
+            }
+        ],
+        "dragsheden_ost": [
+            {
+                "name":"Dragsheden öst",
+                "lat": 60.236667,
+                "lon": 16.791111,
+                "desc": "Dragheden öst, next to Gästrikland's largest Iron Age burial field which is here on both sides of the Dragsbron. The site has a gravel bottom and it is 75 meters to the unloading site. At low water levels, the passage under the Dragsbron can be dry.",
+                "imgPath": "coast2.jpg",
+                "type": "Badplats"
+                
+            }
+        ]
+    },
+    "canoe_hedesundafjarden": {
+        "ashuvudet": [
+            {
+                "name":"Åshuvudet",
+                "lat": 60.366128,
+                "lon": 17.032455,
+                "desc": "Åshuvuden is a rest area with a barbecue area, swimming area and toilet. It is a rocky strip of beach and the bottom.",
+                "imgPath": "coast3.jpg",
+                "type": "Rastplats"
+            }
+        ],
+        "langviksvallen": [
+            {
+                "name":"Långviksvallen",
+                "lat": 60.351072,
+                "lon": 17.121399,
+                "desc": "Långviksvallen is a smaller rest area. The grassy open area is suitable for camping. It is less than 20 meters to both the loading area and parking.",
+                "imgPath": "grill.jpg",
+                "type": "Rastplats"
+            }
+        ],
+        "sodra_sundet": [
+            {
+                "name":"Södra Sundet",
+                "lat": 60.312009,
+                "lon": 17.037239,
+                "desc": "Södra Sundet is a simple rest area located near national road 56. The loading area is very suitable as a road goes all the way down to the water. It is 50 meters to the parking lot.",
+                "imgPath": "grill.jpg",
+                "type": "Rastplats"
+            }
+        ],
+        "hedesunda_camping": [
+            {
+                "name":"Hedesunda Camping",
+                "lat": 60.350794,
+                "lon": 17.021619,
+                "desc": "Hedesunda Camping is located near the community of Hedesunda in a beautiful park-like area. It is a quiet campsite wonderfully beautifully located on the banks of the Dalälven River with its own docks and a sandy beach known as Sandsnäsbadet. Here you can swim and fish, take canoe trips or just relax. With more than five hectares of grassland and forest, we offer about 80 spacious pitches for motorhomes, tents and caravans (of which 60 are including electricity).Even though the campsite is so well equipped, it gives you a wilderness feeling, which will remain as an unforgettable memory. Showers and toilets including a disabled toilet are available centrally near the reception. There are good cooking facilities including electric and microwave ovens, washing machines and a playground for the children almost the entire area (www.hedesundacamping.se)",
+                "imgPath": "camping1.jpg",
+                "type": "POI"
+            }
+        ],
+        "sandsnasbadet": [
+            {
+                "name":"Sandsnäsbadet",
+                "lat": 60.350156,
+                "lon": 17.020368,
+                "desc": "Sandnäsbadet is nicely located on the Dalälven, next to Hedesunda Camping and restaurant Sandsnäs. The bath has a nice sandy beach and changing cabins. There is access to a bathing wheelchair, guest boat jetty and dass. Central Sweden's riviera!",
+                "imgPath": "strand.jpg",
+                "type": "Badplats"
+            }
+        ],
+        "ogarden": [
+            {
+                "name":"Ögården",
+                "lat": 60.363359,
+                "lon": 17.023025,
+                "desc": "The Ögården is a family-friendly resting place. The Ögården is the Hedesunda Mission congregation's summer home, which is beautifully situated by the Dalälven. Here is Ögården's Café.",
+                "imgPath": "strand.jpg",
+                "type": "Rastplats"
+            }
+        ],
+        "ostveda": [
+            {
+                "name":"Östveda",
+                "lat": 60.383225,
+                "lon": 17.093395,
+                "desc": "Östveda is a simple rest area and docking area consisting of a strip of sand against a grass surface. It is close to toilets. A paved road goes all the way down to the water, which facilitates loading and unloading.",
+                "imgPath": "tower.jpg",
+                "type": "POI"
+            }
+        ],
+        "norra_sundet": [
+            {
+                "name":"Norra Sundet",
+                "lat": 60.37170,
+                "lon": 17.02758,
+                "desc": "Norra Sundet is a resting place and mooring place. There is a jetty here.",
+                "imgPath": "bunker.jpg",
+                "type": "POI"
+            }
+        ],
+        "kvillanudden": [
+            {
+                "name":"Kvillanudden",
+                "lat": 60.371620,
+                "lon": 17.046229,
+                "desc": "The Kvillanudden nature reserve consists of a wooded gravel ridge that forms a promontory in the Dalälven. Most of the reserve is old pasture and is still relatively open today. The Kvillanudden is a well-visited outdoor recreation area. From the parking lot there is a path that leads to the promontory in the reserve. From here you get a beautiful view of the Hedesundafjärden. You can also follow an old road that leads to a windbreak and resting place along the bay. The forest is healthy to dry and the ground layer includes lingonberry, blueberry, lily of the valley, vetch and snakeberry. (Source: www.lansstyrelsen.se)",
+                "imgPath": "tree.jpg",
+                "type": "POI"
+            }
+        ],
+        "korsnaset": [
+            {
+                "name":"Korsnäset",
+                "lat": 60.319821,
+                "lon": 17.032720,
+                "desc": "Korsnäset is a smaller rest area near national highway 56. Despite its simplicity, thanks to its proximity to the road, it is a suitable place to put in. The short strip of sandy beach and the soft bottom invite both beach hanging and swimming.",
+                "imgPath": "kross.jpg",
+                "type": "POI"
+            }
+        ],
+        "loten": [
+            {
+                "name":"Löten",
+                "lat": 60.327462,
+                "lon": 17.022095,
+                "desc": "Löten is a rest area with a strip of sandy beach mixed with large boulders and with a sandy bottom. The shallow water is well suited for canoeing.",
+                "imgPath": "Eldstad-under-tak.jpg",
+                "type": "Rastplats"
+            }
+        ],
+        "hade": [
+            {
+                "name":"Hade",
+                "lat": 60.298655,
+                "lon": 17.037223,
+                "desc": "Hade is a village in Hedesunda parish, which is part of an area south of Dalälven called Utomälven. Past Hade passes the ancient trail between Uppsala - Östervåla - Hedesunda or Mälaren - Enköping / Västerås - Tärnsjö, (Nora parish), - Hedesunda. In There are burial grounds from the Roman Iron Age (0-400 AD). The burial area overlooks the Dalälven (Source: www.wikipedia.org)",
+                "imgPath": "tree.jpg",
+                "type": "POI"
+            }
+        ],
+        "gnupe": [
+            {
+                "name":"Gnupe",
+                "lat": 60.345800,
+                "lon": 17.056694,
+                "desc": "Gnupe is a smaller rest area at Nästmursviken's headland. It is 10 meters to both the unloading area and parking. The high edge towards the water makes it more difficult to touch.",
+                "imgPath": "grill.jpg",
+                "type": "Rastplats"
+            }
+        ]
+    },
+    "canoe_gysinge": {
+        "cafe_udden": [
+            {
+                "name":"Cafe Udden",
+                "lat": 60.286881,
+                "lon": 16.880885,
+                "desc": "Café Udden at Gysinge Herrgård's beautiful mill environment offers a unique view of the Dalälven. The obvious moment to enjoy a bite to eat or a coffee.",
+                "imgPath": "grill.jpg",
+                "type": "Rastplats"
+            }
+        ],
+        "karlhomen": [
+            {
+                "name":"Karlhomen",
+                "lat": 60.262364,
+                "lon": 16.808925,
+                "desc": "Karlholm can be a resting place with a barbecue area and wind protection, but it is difficult to find sources on the internet.",
+                "imgPath": "kross.jpg",
+                "type": "POI"
+                
+            }
+        ],
+        "tegelbruket": [
+            {
+                "name":"Tegelbruket",
+                "lat": 60.281111,
+                "lon": 16.805833,
+                "desc": "Tegelbruket is a campsite in Edsviken. Here there is a large sandy beach with good opportunities for swimming and playing.",
+                "imgPath": "strand.jpg",
+                "type": "Badplats"
+                
+            }
+        ],
+        "ista": [
+            {
+                "name":"Ista",
+                "lat": 60.253889,
+                "lon": 16.794444,
+                "desc": "In the landscape around Färnebofjärden in Dalälven lies Ista nature reserve. Enköpingsåsen runs through the reserve, which stretches out into the river. Along the shores around Hamrefjärden and Istasjön there are valuable river meadows and flooded forests. Ista nature reserve is located by Dalälven 4 kilometers south of Österfärnebo and covers 770 hectares. The low-lying coastal zones are flooded regularly and the floods create valuable natural values. Many endangered species are dependent on recurring floods and in the Ista nature reserve there are, among other things, several red-listed lichens and mosses. (Source: www.lansstyrelsen.se)",
+                "imgPath": "tower.jpg",
+                "type": "POI"
+            }
+        ],
+        "gysinge": [
+            {
+                "name":"Gysinge",
+                "lat": 60.291072,
+                "lon": 16.885012,
+                "desc": "Gysinge, Norrland's southernmost outpost offers wild rapids and a unique natural heritage. In Gysinge, you don't have to choose between nature experience, culture and good food. Everything has been collected here for generations. Feel free to combine a trip to the national park with a visit to the small shops and at one of Gysinge's exhibitions. Gysinge is located along Tidernas väg, between Uppsala and Sandviken. The area has been designated a Biosphere Reserve by the UN agency, thanks to the high natural and cultural values that surround us , Gysinge värdshus, Brandbilmuseet, and the Färnebofjärden nature area with good opportunities for hiking, fishing or paddling. (Source: visitsandviken.se)",
+                "imgPath": "tower.jpg",
+                "type": "POI"
+            }
+        ],
+        "gysingeforsarna": [
+            {
+                "name":"Gysingeforsarna",
+                "lat": 60.286032,
+                "lon": 16.884129,
+                "desc": "The Gysingeforsarna is known for Sweden's southernmost flowing water with grayling. The fishing for perch, pike and zander is also very good. The beautiful environments in both Färnebofjärden National Park and in the mill community with many buildings from the past provide opportunities for varied experiences. (Source: Gysingeforsarna. see)",
+                "imgPath": "tower.jpg",
+                "type": "POI"
+            }
+        ],
+        "gardsvekarna": [
+            {
+                "name":"Gärdsvekarna",
+                "lat": 60.267577,
+                "lon": 16.837235,
+                "desc": "From Gärdsvekarna's construction site, you go 100 meters inland and come to Bengt's cabin. It is a rest cabin with 4 beds. Open all year round. The cabin lacks electricity and water, the beds lack mattresses. Dry grass and firewood are available. The cabin is open for overnight stays. You are responsible for cleaning and you must make sure that the doors and windows are closed when you leave the cabin The beds do not have mattresses, we recommend that you bring your own sleeping bag. There is no electricity or water. (Source: www.cyklapaddla.se/objekt/bengts-stuga-pa-gardsverkarna/)",
+                "imgPath": "camping1.jpg",
+                "type": "Camping"
+            }
+        ],
+        "edsviken": [
+            {
+                "name":"Edsviken",
+                "lat": 60.266686,
+                "lon": 16.816568,
+                "desc": "At Edsviken bathing area, you can enjoy the sun and swim at one of the area's most beautiful sandy beaches. At the bathing area there are facilities and a toilet. Both a bathing jetty and a jetty where you who come in a canoe can dock are available.",
+                "imgPath": "tree.jpg",
+                "type": "POI"
+            }
+        ]
+    }
+}

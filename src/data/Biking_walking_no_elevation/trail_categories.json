@@ -1,0 +1,14 @@
+{
+    "types": [
+        {
+            "type": "Biking"
+        },
+        {
+            "type": "Walking"
+        },
+        {
+            "type": "Canoeing"
+        }
+        
+    ]
+}

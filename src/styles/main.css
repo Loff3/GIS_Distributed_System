@@ -1,0 +1,656 @@
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    /*standard och darkmode skulle kunna skifta variabler i en funktion.*/
+    --clr-txt-standard-light: white;
+    --clr-txt-standard-dark: black;
+    --clr-txt-alert:red;
+    --clr-bg-standard-primary:rgba(144, 194, 103);
+    --clr-bg-standard-secondary:rgb(177, 165, 97);
+    --clr-bg-standard-detail:rgb(204, 188, 45);
+    --clr-border-standard: 2px solid rgb(38, 110, 41);
+
+    --clr-bg-opacity-primary: rgba(144, 194, 103, 0.7);
+    --clr-bg-opacity-secondary: rgba(177, 165, 97, 0.7);
+
+    --clr-txt-darkmode: rgba(250, 250, 250, 1.0);
+    --clr-bg-darkmode-primary:rgb(25, 25, 25);
+    --clr-bg-darkmode-secondary:rgba(35, 35, 35, 1.0);
+    --clr-bg-darkmode-detail:rgb(65, 59, 36);
+    --clr-border-darkmode:rgb(70, 68, 68);
+
+    --clr-buttons:#007bff;
+    
+    --clr-buttons-mousedown:white;
+    --clr-buttons-mousedown-border: 2px solid black;
+
+    --clr-txt-hover: white;
+    --clr-boxshadow:rgba(0,0,0,0.2);
+    --rad-border-divs: 8px;
+    --rad-border-items: 5px;
+
+    --time-transition: 400ms;
+}
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+
+.material-icons {
+    font-family: 'Material Icons', serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px; /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--clr-bg-standard-secondary);
+    border-radius: var(--rad-border-divs);
+}
+
+#mapDiv {
+    position: relative;
+    margin-left: 8%;
+    height: 100vh;
+    width: 88vw;
+    border-radius: var(--rad-border-divs);
+}
+
+.object-hover-pointer{
+    cursor: pointer;
+}
+
+
+/* Fixed sidenav, full height */
+.nav-bar {
+    height: 100%;
+    width: 10vw;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background: var(--clr-bg-standard-primary);
+    border: var(--clr-border-standard);
+    border-width: var(--border-rad-divs);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+/* Style for sidenav links and the dropdown button */
+.nav-bar a, .nav-bar__dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    transition: 0.3s ease;
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--clr-txt-standard-dark);
+    display: block;
+    border: none;
+    background: none;
+    border-bottom: solid black 1px;
+    border-left: solid black 1px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+/* On mouse-over */
+.nav-bar a:hover, .nav-bar__dropdown-btn:hover {
+    color: var(--clr-txt-hover);
+}
+
+/* Main content */
+.nav-bar__main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.nav-bar__active {
+    color: var(--clr-txt-hover);
+}
+
+/* Dropdown container (hidden by default) */
+.nav-bar__dropdown-container {
+    display: none;
+    background-color: var(--clr-bg-standard-detail);
+    padding-left: 8px;
+}
+
+
+#trailIndex{
+    position: absolute;
+    left: 8px;
+    bottom: 5px;   
+    z-index: 2;
+}
+#trailIndex p{
+    text-decoration: underline;
+    text-align: right;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.indexRow{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+}
+.indexSquare{
+    width: 15px;
+    height: 15px;
+}
+.indexText{
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+#poiIndex{
+    position: absolute;
+    left: 100px;
+    bottom: 5px;   
+    z-index: 2;
+}
+#poiIndex p{
+    text-decoration: underline;
+    text-align: right;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+
+
+.info-panel {
+    position: fixed;
+    font-size: 20;
+    top: 0; /* Avståndet från toppen */
+    right: -350px; /* Initially hidden */
+    width: 400px; /* Bredden på infopanelen */
+    height: 100vh; /* vh är viewport height */
+    padding-top: 30px;
+    padding-left: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /*Ska uppdateras för att hämta från root */
+    border: var(--clr-border-standard);
+    background: var(--clr-bg-standard-primary);
+    border-radius: var(--rad-border-divs);
+    transition: right 0.5s ease;
+    overflow: hidden;
+    overflow-x: hidden;
+    object-fit: cover;
+    display: grid;
+    grid-template-columns: 8% 0 90%;
+    grid-template-rows: 10% 30% 80%;
+    gap: 0;
+    grid-template-areas:
+        ". info-panel__side info-panel__header"
+        ". info-panel__side info-panel__img"
+        ". info-panel__side info-panel__content";
+}
+
+.info-panel__desc {
+    grid-area: info-panel__content;
+}
+
+.info-panel__img {
+    grid-area: info-panel__img;
+}
+
+.info-panel__header {
+    grid-area: info-panel__header;
+}
+
+.info-panel__side {
+    grid-area: info-panel__sideBoarder;
+}
+
+div.info-panel img {
+    width: 100%;
+    object-fit: contain;
+    padding: 0;
+    margin-top: 8px;
+    border: var(--clr-border-standard);
+    border-radius: var(--rad-border-items);
+}
+
+
+#infoPanel__toggleButton svg{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+/* The maps tool-toggle-button - toggle out sub menus.*/
+#toolbar__tools-toggle-button{
+    position: absolute;
+    left:5px;
+    bottom:5px;
+    z-index: 1;
+}
+#toolbar__tools-toggle-button svg{
+    height: 40px;
+    width: 40px;
+}
+
+/* The maps filter-toggle-button - toggle out sub menus.*/
+#toolbar__tools-filter-button{
+    position: absolute;
+    left:5px;
+    bottom:55px;
+    z-index: 1;
+
+}
+#toolbar__tools-filter-button svg{
+    height: 40px;
+    width: 40px;
+
+}
+
+
+.toolbar {
+    position: absolute;
+    height: auto;
+    z-index: 1;
+    background-color: var(--clr-bg-standard-secondary);
+    border: var(--clr-border-standard);
+    border-radius: var(--rad-border-divs);
+}
+.toolbar__tools{
+    margin: 0;
+    padding: 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;    
+}
+.toolbar__tools-item{
+    position: relative;
+    margin: 2px 5px;
+    padding: 2px;
+}
+
+
+.toolbar__tools-link svg{
+    height:30px;
+    width: 30px;
+    border: var(--clr-border-standard);
+    border-radius: var(--rad-border-items);
+    background-color:var(--clr-buttons);
+    border-style: outset;
+    color: var(--clr-txt-standard-dark);
+    transform: scale(100%);
+    transition: 200ms;
+}
+.toolbar__tools-link:hover svg{
+    transition: 100ms;
+    transform: scale(110%);
+}
+.toolbar__tools-link-on svg{
+    transition: 100ms;
+    transform: scale(110%);
+    color: var(--clr-buttons-mousedown);
+    border: var(--clr-buttons-mousedown-border);
+}
+.toolbar__tools-link.pressed svg{
+    transform: scale(100%);
+    color: var(--clr-buttons-mousedown);
+    border: var(--clr-buttons-mousedown-border);
+}
+
+.toolbar__input{
+    margin: 2px 4px;
+    font-size: 13px;
+    width: 7rem;
+    border: var(--clr-border-standard);
+    border-color: var(--clr-buttons);
+    border-radius: var(--rad-border-items);
+    background-color:var(--clr-bg-standard-secondary);
+    transition: box-shadow 200ms ease, border-width 200ms ease;
+    outline:none;
+    cursor: pointer;
+}
+.toolbar__input:focus{
+    transform: scale(110%);
+    border: none;
+    outline-style: inset;
+    outline: 2px solid black;
+    background-color: white;
+    box-shadow: 0 0 2px 1px black;  
+}
+.toolbar__input::placeholder{
+    font-size: 13px;
+    color: var(--clr-txt-standard-dark);
+}
+
+
+/*Filter poi/trail and distance related GUI*/
+.filter{
+    position: absolute;
+    width: 150px;
+    z-index: 1;
+    background-color: var(--clr-bg-standard-secondary);
+    border: var(--clr-border-standard);
+    border-radius: var(--rad-border-divs);
+}
+.filter__tools{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;   
+}
+.filter__input{
+    margin: 2px;
+    font-size: 13px;
+    width: 6.2rem;
+    border: var(--clr-border-standard);
+    border-color: var(--clr-buttons);
+    border-radius: var(--rad-border-items);
+    background-color:var(--clr-bg-standard-secondary);
+    transition: box-shadow 200ms ease, border-width 200ms ease;
+    outline:none;
+    cursor: pointer;
+}
+.filter__input.active{
+display: block !important;
+ 
+}
+.filter__tools-distance-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    height: 40px;
+    width: 100%;
+    border: 2px solid;
+    border-radius: 8px;
+    border-color: var(--clr-buttons);
+}
+
+#filter__tools-distance-button{
+    margin-right: 10px;
+}
+.filter__infotext{
+    text-align: center;  
+    font-size: 14;
+    font-weight: 700;
+}
+
+
+
+/* Hover over labels for toolbar buttons and filter buttons*/
+.toolbar__tools-link::after{
+    position: absolute;
+    text-align: center;
+    background-color:var(--clr-bg-standard-secondary); 
+    border: var(--clr-border-standard);
+    transform: translateX(-50%); 
+    color: var(--clr-txt-standard-dark); 
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 14px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity var(--time-transition);
+}
+.toolbar__tools-link:hover::after{
+    visibility: visible;
+    opacity: 1.0;
+}
+/*CREATE POI*/
+#toolbar__choose-poi::after{
+    content: "Create POI";
+    width: 40px;
+    top: -140%;
+    left: 50%;
+}
+/*CREATE TRAIL*/
+#toolbar__choose-trail::after{
+    content: "Create trail";
+    width: 40px;
+    top: -140%; 
+    left: 50%; 
+}
+/*RESET*/
+#toolbar__reset-trail-input-button::after, 
+#toolbar__reset-poi-input-button::after{
+    content: "Reset";
+    width: 50px;
+    top: -130%; 
+    left: 50%; 
+}
+/*UNDO*/
+#toolbar__undo-trail-input-button::after, 
+#toolbar__undo-poi-input-button::after{
+    content: "Undo";
+    width: 50px;
+    top: -130%; 
+    left: 50%; 
+}
+/*STORE TEMP*/
+#toolbar__store-trail-input-button::after, 
+#toolbar__store-poi-input-button::after{
+    content: "Done";
+    width: 50px;
+    top: -130%; 
+    left: 50%; 
+}
+/*SAVE*/
+#toolbar__save-trail-input-button::after, 
+#toolbar__save-poi-input-button::after{
+    content: "Save";
+    width: 50px;
+    top: -130%; 
+    left: 50%; 
+}
+/*LOAD*/
+#toolbar__load-trail-input-button::after, 
+#toolbar__load-poi-input-button::after{
+    content: "Load";
+    width: 50px;
+    top: -130%; 
+    left: 50%; 
+}
+/*DELETE*/
+#toolbar__delete-trail-input-button::after, 
+#toolbar__delete-poi-input-button::after{
+    content: "Delete file-data";
+    width: 50px;
+    top: -140%; 
+    left: 50%; 
+    color: var(--clr-txt-alert); 
+}
+/*REFRESH*/
+#toolbar__refresh-trail-input-button::after, 
+#toolbar__refresh-poi-input-button::after{
+    content: "Clear map";
+    width: 50px;
+    top: -140%; 
+    left: 50%; 
+}
+/*FILTER DROPDOWN*/
+#filter__dropdown-poi-list::after, 
+#filter__dropdown-trail-list::after{
+    content: "Filter map objects";
+    width: 50px;
+    right: -70%; 
+    transform: translateX(-50%); 
+    position: absolute;
+    text-align: center;
+    background-color:var(--clr-bg-standard-secondary); 
+    border: var(--clr-border-standard);
+    color: var(--clr-txt-standard-dark); 
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 14px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity var(--time-transition);
+}
+#filter__dropdown-poi-list:hover::after, 
+#filter__dropdown-trail-list:hover::after{
+    visibility: visible;
+    opacity: 1.0;
+}
+/*FILTER DISTANCE TOGGLE BUTTON*/
+#filter__tools-distance-button::after{
+    content: "Show poi within distance from trail";
+    width: 50px;
+    right: -70%; 
+}
+/*FILTER DISTANCE CONFIRM BUTTON*/
+#filter__tools-confirm-button::after{
+    content: "Confirm filter";
+    width: 50px;
+    right: -82%; 
+}
+/*REMOVE BUFFER FILTER BUTTON*/
+#toolbar__undo-buffer-input-button::after{
+    content: "Remove filter";
+    width: 50px;
+    right: -360%; 
+}
+
+
+
+
+/*Popout divs for filter and toolbar*/
+#filter__tools-distance-popout{
+    position: relative;
+    height:185px;
+    width: 100%;
+}
+#filter__distance-nameview{
+    margin-top: 4px;
+    width: 7rem;
+    cursor: default;
+    user-select: none;
+}
+#filter__distance-input{
+    width: 6rem;
+    height: 1.5rem;
+}
+#filter__tools-distance-popout{
+    display: none;
+}
+#filter__select-object{
+    display:none;
+    bottom:120px;
+    left:2px;
+}
+#filter__select-object svg{
+    margin: 2px;
+}
+
+#toolbar__select-object{
+    display:none;
+    bottom:2px;
+    left:75px;
+}
+#toolbar__create-trail-object{
+    display:none;
+    bottom:2px;
+    left:200px;
+}
+#toolbar__create-poi-object{
+    display:none;
+    bottom:2px;
+    left:200px;
+}
+#customTrail-category{
+    display:none;
+}
+
+
+
+
+/*Esri popup infoWindow*/
+.esriPopup .titlePane {
+    display: none;
+  }
+
+  .esriPopup .contentPane {
+    padding: 10px;
+  }
+
+  .esriPopup .actionsPane {
+    display: none;
+  }
+
+  .esriPopup .pointer {
+    display: none;
+  }
+
+  .esriPopup .outerPointer {
+    display: none;
+  }
+
+  .esriPopup .esriViewPopup {
+    width: 100px !important;
+    height: auto !important;
+    padding: 5px !important;
+  }
+
+  .esriPopup .content {
+    font-size: 12px;
+  }
+
+  .esriPopup .esriPopupWrapper {
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .esriPopup .close {
+    right: 5px;
+    top: 5px;
+  }
